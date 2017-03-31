@@ -3,4 +3,5 @@
     <string name="band">Thousand Foot Krutch</string>
     <string name="album_title">The End Is Where We Begin</string>
     <string name="song_title">Courtesy Call</string>
+    <string name="stuff">This can be accomplished by using the MediaMetadataRetriever library, which reads the ID3 tags on an mp3 file. \n\nAll of methods in the app can be used locally or over the internet, the main difference being in how you implement the constructor.</string>
 </resources>

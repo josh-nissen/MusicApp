@@ -16,21 +16,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:textSize="32dp"
+            android:textSize="32sp"
             android:text="@string/band"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:textSize="24dp"
+            android:textSize="24sp"
             android:text="@string/album_title"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:textSize="24dp"
+            android:textSize="24sp"
             android:text="@string/song_title"/>
 
         <ImageView
