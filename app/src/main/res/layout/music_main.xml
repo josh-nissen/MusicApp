@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MusicMainActivity">
+
+    <TextView
+        style="@style/main_selection"
+        android:id="@+id/music_library"
+        android:background="@color/musicLibrary"
+        android:text="Track Library" />
+
+    <TextView
+        android:id="@+id/now_playing"
+        style="@style/main_selection"
+        android:background="@color/nowPlaying"
+        android:text="Now Playing" />
+
+    <TextView
+        android:id="@+id/random_song"
+        style="@style/main_selection"
+        android:background="@color/randomSong"
+        android:text="Random Song" />
+
+</LinearLayout>
